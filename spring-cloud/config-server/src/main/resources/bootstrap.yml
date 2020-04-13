@@ -1,8 +1,6 @@
 spring:
         application:
                 name: thisme
-        profiles:
-                active: mydev
         cloud:
                 config:
                         server:
@@ -11,8 +9,5 @@ spring:
                                         search-paths: one
                                         username:
                                         password:
-                                        default-label: newVersion
-        rabbitmq:
-                addresses: amqp://localhost:5672
-                username: guest
-                password: guest
+                        label: newVersion
+                        profile: mydev

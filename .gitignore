@@ -4,3 +4,4 @@ spring-cloud/.idea/*
 **/rebel.xml
 **/classes
 spring-cloud/**/*.bak
+*.iml

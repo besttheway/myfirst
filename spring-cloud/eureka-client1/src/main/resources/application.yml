@@ -4,6 +4,12 @@ server:
 spring:
   application:
     name: eurekaClient1
+  datasource:
+
+    username: bohai01
+    password: Bohai1234
+    url: jdbc:mysql://rm-m5e6jznxdxdqbg4819o.mysql.rds.aliyuncs.com:3306/bohai01_test?useUnicode=true&allowMultiQueries=true&characterEncoding=utf-8
+
 eureka:
   client:
     service-url:

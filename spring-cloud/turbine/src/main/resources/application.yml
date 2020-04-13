@@ -1,0 +1,15 @@
+
+
+server:
+  port: 9987
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://139.155.22.15:3306/dockerdata
+    username: root
+    password: 23532
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/

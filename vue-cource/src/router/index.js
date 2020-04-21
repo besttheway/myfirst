@@ -9,7 +9,7 @@ const router = new VueRouter({
   routes
 })
 
-const LOGINED = true
+// const LOGINED = true
 
 router.beforeEach((to, from, next) => {
   // next({ name: 'split-pane' })

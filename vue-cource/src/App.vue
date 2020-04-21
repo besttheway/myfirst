@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-
+    <router-link :to="{ name: 'list' }">点击跳转list</router-link>
     <router-view/>
   </div>
 </template>
